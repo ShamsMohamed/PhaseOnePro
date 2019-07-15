@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/my_profile"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_username_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/shams_mohamed"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:id="@+id/tv_email_title_id"
+                style="@style/text_views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email" />
+            <TextView
+                android:id="@+id/tv_email_value_id"
+                style="@style/text_views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shams_mohamed_cs_gmail_com" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tv_track_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_views_title"
+                android:text="@string/track" />
+            <TextView
+                android:id="@+id/tv_track_value_id"
+                style="@style/text_views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tv_country_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_views_title"
+                android:text="@string/country" />
+
+            <TextView
+                android:id="@+id/tv_country_value_id"
+                style="@style/text_views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/egypt" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tv_phone_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_views_title"
+                android:text="@string/phone_number" />
+            <TextView
+                android:id="@+id/tv_phone_value_id"
+                style="@style/text_views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_01100852646" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tv_slack_user_name_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_views_title"
+                android:text="@string/slack_username" />
+
+
+
+            <TextView
+                android:id="@+id/tv_slack_user_name_value_id"
+                style="@style/text_views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shams_mohamed_cs" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

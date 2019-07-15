@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">ALC 4 Phase 1</string>
+    <string name="about_alc_activity_title">About ALC</string>
+    <string name="my_profile_activity_title">My Profile</string>
+    <string name="welcome_to_alc_4_0">Welcome To ALC 4.0</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about_alc">About ALC</string>
+    <string name="shams_mohamed">Shams Mohamed</string>
+    <string name="email">Email :</string>
+    <string name="shams_mohamed_cs_gmail_com">shams.mohamed.cs@gmail.com</string>
+    <string name="track">Track :</string>
+    <string name="android">Android</string>
+    <string name="country">Country :</string>
+    <string name="egypt">Egypt</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="_01100852646">01100852646</string>
+    <string name="slack_username">Slack Username :</string>
+    <string name="shams_mohamed_cs">shams.mohamed.cs</string>
+</resources>
